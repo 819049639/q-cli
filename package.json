@@ -1,11 +1,12 @@
 {
-  "name": "@q/cli",
+  "name": "wqc-cli",
   "version": "1.0.0",
   "description": "",
   "main": "bin/cli.js",
   "bin": {
     "q": "bin/cli.js"
   },
+  "homepage": "https://github.com/819049639/q-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
