@@ -16,8 +16,8 @@ program
         return;
       }
       console.log(data);
+      require("../lib/create")(name, options);
     });
-    require("../lib/create")(name, options);
   });
 
 program.parse(process.argv);
